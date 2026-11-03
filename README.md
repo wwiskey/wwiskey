@@ -1,21 +1,10 @@
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-cover-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/profile-cover-light.svg" /><img src="assets/profile-cover-light.svg" alt="wwiskey — Cloud &amp; Data Engineering. AWS / Azure." width="100%" /></picture>
-</p>
+<p><picture><source media="(prefers-color-scheme: dark) and (max-width: 650px)" srcset="assets/profile-system-cover-mobile-dark.svg" /><source media="(prefers-color-scheme: light) and (max-width: 650px)" srcset="assets/profile-system-cover-mobile-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/profile-system-cover-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/profile-system-cover-light.svg" /><img src="assets/profile-system-cover-light.svg" width="100%" alt="wwiskey — Cloud &amp; Data Engineering. AWS / Azure." /></picture></p>
 
-<div align="center">
-
-### 클라우드 환경과 데이터 서비스를 만듭니다.
-
-AWS·Azure 환경을 구성하고,<br />
-데이터를 저장·검색·분석하는 웹 서비스를 개발합니다.
-
-</div>
-
-<br />
+### 클라우드 인프라와 데이터 서비스를 직접 구축합니다.
 
 ## Capabilities
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capabilities-map-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/capabilities-map-light.svg" /><img src="assets/capabilities-map-light.svg" width="100%" alt="프로젝트 기술 구성도: 사용자 → React·Vite 웹 → Django·DRF API → 검색·캐시 및 데이터베이스. Fabric 분석 흐름과 클라우드·인프라·배포 자동화 경험." /></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark) and (max-width: 650px)" srcset="assets/service-architecture-mobile-dark.svg" /><source media="(prefers-color-scheme: light) and (max-width: 650px)" srcset="assets/service-architecture-mobile-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/service-architecture-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/service-architecture-light.svg" /><img src="assets/service-architecture-light.svg" width="100%" alt="프로젝트별 기술 역할 구성도. 브라우저 → HTTPS/Nginx → Gunicorn/Django API. 클라우드 안의 Docker 실행 영역과 관리형 DB·S3·Azure 분석 영역을 구분하고, GitHub Actions 배포 흐름을 별도로 표시합니다." /></picture></p>
 
 <details>
 <summary>기술 목록</summary>

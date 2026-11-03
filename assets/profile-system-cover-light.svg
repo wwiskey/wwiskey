@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc"><title id="title">wwiskey — Cloud &amp; Data Engineering</title><desc id="desc">AWS·Azure 인프라, 웹·데이터 서비스와 배포 자동화 경험</desc><defs>
+<marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#5e8296" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="data" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#4f926a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="deploy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#a18145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs><rect width="1200" height="260" fill="#f6f7f3"/><g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif">
+<rect x="0" y="0" width="280" height="260" rx="0" fill="#173137" stroke="#173137" stroke-width="1"/>
+<text x="36" y="65" font-size="30" font-weight="650" fill="#f0f5ed" letter-spacing="-.6">wwiskey</text>
+<path d="M38 99h62" fill="none" stroke="#4f926a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="143" font-size="12" font-weight="550" fill="#b0c9ba" letter-spacing=".9">CLOUD INFRASTRUCTURE</text>
+<text x="38" y="177" font-size="12" font-weight="550" fill="#b0c9ba" letter-spacing=".9">WEB &amp; DATA SERVICES</text>
+<text x="38" y="227" font-size="15" font-weight="550" fill="#f0f5ed" letter-spacing=".7">AWS / AZURE</text>
+<text x="330" y="40" font-size="11" font-weight="600" fill="#617775" letter-spacing="1.5">ENGINEERING PORTFOLIO</text>
+<text x="326" y="114" font-size="64" font-weight="600" fill="#20363b" letter-spacing="-2.2">Cloud &amp; Data</text>
+<text x="326" y="181" font-size="64" font-weight="600" fill="#20363b" letter-spacing="-2.2">Engineering</text>
+<path d="M330 214h816" fill="none" stroke="#4f926a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="330" y="241" font-size="13" font-weight="400" fill="#617775" letter-spacing=".4">Infrastructure / Applications / Analytics</text>
+</g></svg>
