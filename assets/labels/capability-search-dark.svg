@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="SEARCH &amp; CACHE">
+<rect x=".5" y=".5" width="359" height="67" rx="9.5" fill="#141f20" stroke="#263638"/>
+<rect x="16" y="16" width="36" height="36" rx="9" fill="#203232"/>
+<g transform="translate(22 22)" fill="none" stroke="#9cc8ba" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.8"/><path d="m15.5 15.5 5 5M7.5 9h6M7.5 12h4"/></g>
+<text x="68" y="39" fill="#b0c9c2" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="11.5" letter-spacing="1.15">SEARCH &amp; CACHE</text>
+</svg>

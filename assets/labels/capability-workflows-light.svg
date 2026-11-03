@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="WORKFLOWS">
-<defs><linearGradient id="wash" x1="0" x2="1"><stop stop-color="#7770b5" stop-opacity=".09"/><stop offset="1" stop-color="#7770b5" stop-opacity=".025"/></linearGradient><clipPath id="clip"><rect width="360" height="68" rx="12"/></clipPath></defs>
-<rect x=".5" y=".5" width="359" height="67" rx="11.5" fill="#ffffff"/>
-<rect x=".5" y=".5" width="359" height="67" rx="11.5" fill="url(#wash)" stroke="#7770b5" stroke-opacity=".10"/>
-<g clip-path="url(#clip)" stroke="#a39bd3" fill="none" stroke-opacity=".11"><path d="M275-10v88M299-10v88M323-10v88M347-10v88M262 16h110M262 40h110M262 64h110"/><path d="M270 67c25-8 35-53 90-50" stroke-width="1.2" stroke-opacity=".24"/></g>
-<g transform="translate(16 16)"><rect x=".5" y=".5" width="35" height="35" rx="10" fill="#7770b5" fill-opacity=".11" stroke="#7770b5" stroke-opacity=".18"/><path d="M10.5 1h15a9.5 9.5 0 0 1 9.5 9.5" fill="none" stroke="#a39bd3" stroke-opacity=".22"/><g transform="translate(6 6)" fill="none" stroke="#56528f" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="6" height="6" rx="1.5"/><rect x="16" y="2" width="6" height="6" rx="1.5"/><rect x="16" y="16" width="6" height="6" rx="1.5"/><path d="M8 12h3a2 2 0 0 0 2-2V7a2 2 0 0 1 2-2h1M8 12h3a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h1"/></g></g>
-<text x="68" y="39" fill="#626087" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="12" letter-spacing="1.25">WORKFLOWS</text>
-<circle cx="337" cy="16" r="2" fill="#7770b5" fill-opacity=".30"/>
+<rect x=".5" y=".5" width="359" height="67" rx="9.5" fill="#eff5f2" stroke="#dfe8e2"/>
+<rect x="16" y="16" width="36" height="36" rx="9" fill="#dcebe4"/>
+<g transform="translate(22 22)" fill="none" stroke="#2a7466" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="6" height="6" rx="1.5"/><rect x="16" y="2" width="6" height="6" rx="1.5"/><rect x="16" y="16" width="6" height="6" rx="1.5"/><path d="M8 12h3a2 2 0 0 0 2-2V7a2 2 0 0 1 2-2h1M8 12h3a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h1"/></g>
+<text x="68" y="39" fill="#3c6259" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="11.5" letter-spacing="1.15">WORKFLOWS</text>
 </svg>

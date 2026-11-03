@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="assets/profile-hero-v2.png" alt="wwiskey — Data Engineering & Applications. Pipelines / Search / Interfaces." width="100%" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-cover-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/profile-cover-light.svg" /><img src="assets/profile-cover-light.svg" alt="wwiskey — Cloud &amp; Data Engineering. AWS / Azure." width="100%" /></picture>
 </p>
 
 <div align="center">
 
-### 데이터 처리부터 서비스 구현과 배포까지.
+### 클라우드 환경과 데이터 서비스를 만듭니다.
 
-데이터를 가공해 API와 검색·분석 화면으로 제공하고,<br />
-컨테이너 실행 환경과 자동 배포 흐름을 함께 구성합니다.
+AWS·Azure 환경을 구성하고,<br />
+데이터를 저장·검색·분석하는 웹 서비스를 개발합니다.
 
 </div>
 
@@ -18,21 +18,33 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-web-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-web-light.svg" /><img src="assets/labels/capability-web-light.svg" alt="WEB &amp; API" width="410" height="77" /></picture></p>
-      <p><code>Python</code> <code>Django</code> <code>DRF</code><br /><code>JavaScript</code> <code>React</code> <code>Vite</code></p>
-      <p>REST API와 검색·필터·차트가 있는 웹 화면 개발</p>
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-cloud-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-cloud-light.svg" /><img src="assets/labels/capability-cloud-light.svg" alt="CLOUD PLATFORMS" width="410" height="77" /></picture></p>
+      <p><code>AWS</code> <code>Azure</code><br /><code>S3</code> <code>RDS</code> <code>Azure SQL</code> <code>Fabric</code></p>
+      <p>S3 저장 파일 다운로드·RDS 연동과 Azure 분석 환경 구성</p>
     </td>
     <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-database-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-database-light.svg" /><img src="assets/labels/capability-database-light.svg" alt="DATABASE &amp; SEARCH" width="410" height="77" /></picture></p>
-      <p><strong>DB</strong> <code>PostgreSQL</code> <code>Azure SQL</code><br /><strong>캐시·검색</strong> <code>Redis</code> <code>Meilisearch</code></p>
-      <p>모델·인덱스·집계 쿼리와 조회 캐시·검색 색인 적용</p>
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-database-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-database-light.svg" /><img src="assets/labels/capability-database-light.svg" alt="DATABASES" width="410" height="77" /></picture></p>
+      <p><code>PostgreSQL</code> <code>MySQL</code><br /><code>Azure SQL</code></p>
+      <p>관계형 데이터 모델·SQL 조회·집계·인덱스 구성</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-web-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-web-light.svg" /><img src="assets/labels/capability-web-light.svg" alt="WEB &amp; API" width="410" height="77" /></picture></p>
+      <p><code>Python</code> <code>Django</code> <code>DRF</code><br /><code>JavaScript</code> <code>React</code> <code>Vite</code></p>
+      <p>REST API와 검색·필터·통계·시각화를 연결한 웹 개발</p>
+    </td>
+    <td width="50%" valign="top">
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-search-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-search-light.svg" /><img src="assets/labels/capability-search-light.svg" alt="SEARCH &amp; CACHE" width="410" height="77" /></picture></p>
+      <p><strong>캐시</strong> <code>Redis</code><br /><strong>검색</strong> <code>Meilisearch</code> <code>Trigram GIN</code></p>
+      <p>필터별 캐시·검색 색인과 검색 장애 시 DB 대체 경로 구성</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-data-formats-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-data-formats-light.svg" /><img src="assets/labels/capability-data-formats-light.svg" alt="DATA FORMATS" width="410" height="77" /></picture></p>
       <p><strong>정형</strong> <code>SQL Tables</code> <code>TSV</code><br /><strong>반정형</strong> <code>JSON</code></p>
-      <p>테이블 조회·집계, JSON 데이터 연동과 TSV 내보내기</p>
+      <p>테이블 조회·집계, JSON 연동과 TSV·ZIP 내보내기</p>
     </td>
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-analytics-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-analytics-light.svg" /><img src="assets/labels/capability-analytics-light.svg" alt="DW / LAKEHOUSE / BI" width="410" height="77" /></picture></p>
@@ -44,23 +56,27 @@
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-infrastructure-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-infrastructure-light.svg" /><img src="assets/labels/capability-infrastructure-light.svg" alt="INFRASTRUCTURE" width="410" height="77" /></picture></p>
       <p><code>Docker</code> <code>Compose</code><br /><code>Nginx</code> <code>Gunicorn</code> <code>HTTPS</code></p>
-      <p>앱·검색·캐시 컨테이너와 웹 서버·HTTPS 실행 환경 구성</p>
+      <p>앱·검색·캐시 컨테이너와 웹 서버 실행 환경 구성</p>
     </td>
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-workflows-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-workflows-light.svg" /><img src="assets/labels/capability-workflows-light.svg" alt="WORKFLOWS" width="410" height="77" /></picture></p>
       <p><strong>ETL</strong> <code>Fabric Dataflow</code><br /><strong>개발·배포</strong> <code>Git</code> <code>GitHub Actions</code></p>
-      <p>데이터 처리·주기적 BI 갱신과 테스트·빌드·배포 자동화</p>
+      <p>데이터 처리·주기적 BI 갱신과 검사·테스트·빌드·배포 자동화</p>
     </td>
   </tr>
 </table>
 
 ## Selected Work
 
-### <img src="assets/icons/portal.svg" width="28" height="28" alt="" /> 데이터 탐색·분석 포털
+### <img src="assets/icons/portal.svg" width="28" height="28" alt="" /> 데이터 탐색·분석 플랫폼
 
 <sub>IN PROGRESS · PRIVATE PROJECT</sub>
 
-여러 유형의 데이터를 검색·필터링하고, 차트와 표로 비교할 수 있는 데이터 탐색·분석 포털을 개발하고 있습니다.
+React와 Django로 통합 검색·필터·통계·시각화를 연결한 데이터 탐색·분석 플랫폼을 개발하고 있습니다. 조건을 좁혀 차트와 표로 비교하고, 필요한 결과와 파일을 내보낼 수 있도록 구성했습니다.
+
+- **조회·검색** — PostgreSQL 복합·trigram 인덱스, Redis 필터별 캐시, Meilisearch 검색과 DB 대체 경로
+- **화면·데이터 처리** — URL 기반 필터 상태, 요청 공유·취소, Web Worker 필터·정렬과 차트·표 연동
+- **파일·검증** — S3 파일 ZIP 다운로드와 조회 결과 SVG·PNG·TSV 내보내기, 테스트·린트·빌드·배포 자동화
 
 <br />
 
