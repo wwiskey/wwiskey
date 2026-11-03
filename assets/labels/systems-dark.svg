@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="DATA SYSTEMS">
-<defs><linearGradient id="wash" x1="0" x2="1"><stop stop-color="#79c9bc" stop-opacity=".11"/><stop offset="1" stop-color="#79c9bc" stop-opacity=".025"/></linearGradient><clipPath id="clip"><rect width="360" height="68" rx="12"/></clipPath></defs>
-<rect x=".5" y=".5" width="359" height="67" rx="11.5" fill="#0d1117"/>
-<rect x=".5" y=".5" width="359" height="67" rx="11.5" fill="url(#wash)" stroke="#79c9bc" stroke-opacity=".10"/>
-<g clip-path="url(#clip)" stroke="#65b9ae" fill="none" stroke-opacity=".11"><path d="M275-10v88M299-10v88M323-10v88M347-10v88M262 16h110M262 40h110M262 64h110"/><path d="M270 67c25-8 35-53 90-50" stroke-width="1.2" stroke-opacity=".24"/></g>
-<g transform="translate(16 16)"><rect x=".5" y=".5" width="35" height="35" rx="10" fill="#79c9bc" fill-opacity=".11" stroke="#79c9bc" stroke-opacity=".18"/><path d="M10.5 1h15a9.5 9.5 0 0 1 9.5 9.5" fill="none" stroke="#65b9ae" stroke-opacity=".22"/><g transform="translate(6 6)" fill="none" stroke="#91d3c8" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7.5" ry="3"/><path d="M4.5 5.5v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6M4.5 11.5v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6"/><path d="M8 10.3h.01M8 16.3h.01"/></g></g>
-<text x="68" y="39" fill="#a5d5ce" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="12" letter-spacing="1.25">DATA SYSTEMS</text>
-<circle cx="337" cy="16" r="2" fill="#79c9bc" fill-opacity=".30"/>
-</svg>

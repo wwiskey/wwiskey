@@ -44,8 +44,6 @@
 <text x="815.2" y="322" font-size="22" font-weight="450" fill="#eee7dc" font-family="ui-monospace,Consolas,monospace">MySQL</text>
 <rect x="903.3000000000001" y="299" width="144.78" height="33" rx="4" fill="#1b1a18" stroke="#4c443a" stroke-width="1"/>
 <text x="915.3000000000001" y="322" font-size="22" font-weight="450" fill="#eee7dc" font-family="ui-monospace,Consolas,monospace">Azure SQL</text>
-<rect x="636" y="341" width="171.62" height="33" rx="4" fill="#1b1a18" stroke="#4c443a" stroke-width="1"/>
-<text x="648" y="364" font-size="22" font-weight="450" fill="#eee7dc" font-family="ui-monospace,Consolas,monospace">Trigram GIN</text>
 <rect x="24" y="416" width="564" height="164" rx="2" fill="#25231f" stroke="#4c443a" stroke-width="1"/>
 <path d="M48 439v18" fill="none" stroke="#d19b7a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="62" y="455" font-size="24" font-weight="550" fill="#eee7dc">Search &amp; Cache</text>

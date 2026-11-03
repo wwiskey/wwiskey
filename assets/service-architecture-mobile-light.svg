@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1720" viewBox="0 0 520 1720" role="img" aria-labelledby="title desc"><title id="title">서비스 역할별 기술 구성도 — 모바일</title><desc id="desc">여러 프로젝트의 기술 경험을 역할별로 구성한 지도. 브라우저의 React는 HTTPS로 Nginx에 요청하고, Nginx는 정적 파일과 Gunicorn·Django 요청을 처리합니다. API는 목적별로 PostgreSQL·MySQL·Azure SQL, Redis, Meilisearch, S3를 호출합니다. Trigram GIN은 PostgreSQL 인덱스입니다. Fabric Dataflow·Lakehouse·Fact Table·Power BI는 컨테이너 밖의 분석 영역입니다. GitHub Actions와 Vite는 개발·빌드·배포 영역에 있습니다. AWS IAM과 비용 관리도 포함합니다.</desc><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1720" viewBox="0 0 520 1720" role="img" aria-labelledby="title desc"><title id="title">서비스 역할별 기술 구성도 — 모바일</title><desc id="desc">여러 프로젝트의 기술 경험을 역할별로 구성한 지도. 브라우저의 React는 HTTPS로 Nginx에 요청하고, Nginx는 정적 파일과 Gunicorn·Django 요청을 처리합니다. API는 목적별로 PostgreSQL·MySQL·Azure SQL, Redis, Meilisearch, S3를 호출합니다. Fabric Dataflow·Lakehouse·Fact Table·Power BI는 컨테이너 밖의 분석 영역입니다. GitHub Actions와 Vite는 개발·빌드·배포 영역에 있습니다. AWS IAM과 비용 관리도 포함합니다.</desc><defs>
 <marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#797064" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
 <marker id="data" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#aa6141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
 <marker id="deploy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#98816a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
@@ -39,7 +39,7 @@
 <text x="64" y="915" font-size="12" font-weight="650" fill="#70675b" letter-spacing=".65">DATABASES</text>
 <text x="54" y="951" font-size="21" font-weight="500" fill="#272522">PostgreSQL</text>
 <text x="54" y="980" font-size="17" font-weight="400" fill="#70675b">MySQL · Azure SQL</text>
-<text x="54" y="1006" font-size="15" font-weight="400" fill="#70675b">RDS · Trigram GIN (PG)</text>
+<text x="54" y="1006" font-size="17" font-weight="400" fill="#70675b">RDS</text>
 <rect x="272" y="884" width="212" height="136" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
 <path d="M290 904v12" stroke="#a55535" stroke-width="2.2"/>
 <text x="300" y="915" font-size="12" font-weight="650" fill="#70675b" letter-spacing=".65">OBJECT STORAGE</text>

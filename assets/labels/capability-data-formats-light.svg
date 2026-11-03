@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="DATA FORMATS">
-<rect x=".5" y=".5" width="359" height="67" rx="9.5" fill="#eff5f2" stroke="#dfe8e2"/>
-<rect x="16" y="16" width="36" height="36" rx="9" fill="#dcebe4"/>
-<g transform="translate(22 22)" fill="none" stroke="#2a7466" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6M3.5 10l-2 2 2 2m17-4 2 2-2 2"/></g>
-<text x="68" y="39" fill="#3c6259" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="11.5" letter-spacing="1.15">DATA FORMATS</text>
-</svg>

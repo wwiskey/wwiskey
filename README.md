@@ -9,7 +9,7 @@
 <details>
 <summary><strong>기술 목록</strong></summary>
 
-<p><picture><source media="(prefers-color-scheme: dark) and (max-width: 650px)" srcset="assets/technology-index-mobile-dark.svg" /><source media="(prefers-color-scheme: light) and (max-width: 650px)" srcset="assets/technology-index-mobile-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/technology-index-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/technology-index-light.svg" /><img src="assets/technology-index-light.svg" width="100%" alt="기술 목록: AWS S3, RDS, IAM &amp; Access Control, Cost Monitoring; Azure SQL, Microsoft Fabric; JavaScript, React, Vite, Python, Django, DRF; PostgreSQL, MySQL, Trigram GIN; Redis, Meilisearch; Dataflow, Lakehouse, Fact Table, Power BI; Docker, Compose, Nginx, Gunicorn, HTTPS; Git, GitHub Actions." /></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark) and (max-width: 650px)" srcset="assets/technology-index-mobile-dark.svg" /><source media="(prefers-color-scheme: light) and (max-width: 650px)" srcset="assets/technology-index-mobile-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/technology-index-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/technology-index-light.svg" /><img src="assets/technology-index-light.svg" width="100%" alt="기술 목록: AWS S3, RDS, IAM &amp; Access Control, Cost Monitoring; Azure SQL, Microsoft Fabric; JavaScript, React, Vite, Python, Django, DRF; PostgreSQL, MySQL; Redis, Meilisearch; Dataflow, Lakehouse, Fact Table, Power BI; Docker, Compose, Nginx, Gunicorn, HTTPS; Git, GitHub Actions." /></picture></p>
 
 </details>
 

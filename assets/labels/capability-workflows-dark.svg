@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="WORKFLOWS">
-<rect x=".5" y=".5" width="359" height="67" rx="9.5" fill="#141f20" stroke="#263638"/>
-<rect x="16" y="16" width="36" height="36" rx="9" fill="#203232"/>
-<g transform="translate(22 22)" fill="none" stroke="#9cc8ba" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="6" height="6" rx="1.5"/><rect x="16" y="2" width="6" height="6" rx="1.5"/><rect x="16" y="16" width="6" height="6" rx="1.5"/><path d="M8 12h3a2 2 0 0 0 2-2V7a2 2 0 0 1 2-2h1M8 12h3a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h1"/></g>
-<text x="68" y="39" fill="#b0c9c2" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="11.5" letter-spacing="1.15">WORKFLOWS</text>
-</svg>

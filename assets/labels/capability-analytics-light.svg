@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="DW / LAKEHOUSE / BI">
-<rect x=".5" y=".5" width="359" height="67" rx="9.5" fill="#f0f3f6" stroke="#dfe4e9"/>
-<rect x="16" y="16" width="36" height="36" rx="9" fill="#e2e9f0"/>
-<g transform="translate(22 22)" fill="none" stroke="#4e6c83" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 4.5-9 4.5L3 7.5zM3 12l9 4.5 9-4.5M3 16.5l9 4.5 9-4.5"/></g>
-<text x="68" y="39" fill="#506378" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="11.5" letter-spacing="1.15">DW / LAKEHOUSE / BI</text>
-</svg>

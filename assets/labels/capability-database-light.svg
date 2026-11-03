@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="DATABASES">
-<rect x=".5" y=".5" width="359" height="67" rx="9.5" fill="#f0f3f6" stroke="#dfe4e9"/>
-<rect x="16" y="16" width="36" height="36" rx="9" fill="#e2e9f0"/>
-<g transform="translate(22 22)" fill="none" stroke="#4e6c83" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7.5" ry="3"/><path d="M4.5 5.5v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6M4.5 11.5v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6M8 10.3h.01M8 16.3h.01"/></g>
-<text x="68" y="39" fill="#506378" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="11.5" letter-spacing="1.15">DATABASES</text>
-</svg>
