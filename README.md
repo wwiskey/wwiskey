@@ -18,13 +18,13 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><sub>📊 DATA SYSTEMS</sub></p>
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/systems-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/systems-light.svg" /><img src="assets/labels/systems-light.svg" alt="DATA SYSTEMS" width="360" height="68" /></picture></p>
       <h3>분석할 수 있는 데이터 구조</h3>
       <p>수집·변환·적재에서 분석용 테이블과 운영 대시보드까지, 데이터가 활용되는 흐름을 연결합니다.</p>
       <p><code>SQL</code> <code>Fabric</code> <code>Lakehouse</code> <code>Power BI</code></p>
     </td>
     <td width="50%" valign="top">
-      <p><sub>🔎 DATA APPLICATIONS</sub></p>
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/applications-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/applications-light.svg" /><img src="assets/labels/applications-light.svg" alt="DATA APPLICATIONS" width="360" height="68" /></picture></p>
       <h3>탐색할 수 있는 데이터 서비스</h3>
       <p>API·검색·캐시와 인터랙티브 화면을 연결해 데이터를 찾고, 비교하고, 해석하는 경험을 구성합니다.</p>
       <p><code>Django</code> <code>PostgreSQL</code> <code>React</code> <code>Redis</code></p>
@@ -34,7 +34,7 @@
 
 ## Selected Work
 
-### 🔍 데이터 탐색·분석 포털
+### <img src="assets/icons/portal.svg" width="28" height="28" alt="" /> 데이터 탐색·분석 포털
 
 <sub>IN PROGRESS · PRIVATE PROJECT</sub>
 
@@ -49,7 +49,7 @@ Django·PostgreSQL 기반 API와 React 화면을 연결하고, 여러 유형의 
 
 <br />
 
-### 📈 [ITC · Investment Training Crypto](https://github.com/wwiskey/ITC)
+### <img src="assets/icons/itc.svg" width="28" height="28" alt="" /> [ITC · Investment Training Crypto](https://github.com/wwiskey/ITC)
 
 <sub>2025.08–09 · TEAM PROJECT · ARCHIVED</sub>
 
