@@ -13,19 +13,43 @@
 
 <br />
 
+## Capabilities
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/systems-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/systems-light.svg" /><img src="assets/labels/systems-light.svg" alt="DATA SYSTEMS" width="360" height="68" /></picture></p>
-      <h3>분석할 수 있는 데이터 구조</h3>
-      <p>수집·변환·적재에서 분석용 테이블과 운영 대시보드까지, 데이터가 활용되는 흐름을 연결합니다.</p>
-      <p><code>SQL</code> <code>Fabric</code> <code>Lakehouse</code> <code>Power BI</code></p>
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-web-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-web-light.svg" /><img src="assets/labels/capability-web-light.svg" alt="WEB &amp; API" width="410" height="77" /></picture></p>
+      <p><code>Python</code> <code>Django</code> <code>DRF</code><br /><code>JavaScript</code> <code>React</code> <code>Vite</code></p>
+      <p>REST API와 검색·필터·차트가 있는 웹 화면 개발</p>
     </td>
     <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/applications-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/applications-light.svg" /><img src="assets/labels/applications-light.svg" alt="DATA APPLICATIONS" width="360" height="68" /></picture></p>
-      <h3>탐색할 수 있는 데이터 서비스</h3>
-      <p>API·검색·캐시와 인터랙티브 화면을 연결해 데이터를 찾고, 비교하고, 해석하는 경험을 구성합니다.</p>
-      <p><code>Django</code> <code>PostgreSQL</code> <code>React</code> <code>Redis</code></p>
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-database-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-database-light.svg" /><img src="assets/labels/capability-database-light.svg" alt="DATABASE &amp; SEARCH" width="410" height="77" /></picture></p>
+      <p><strong>DB</strong> <code>PostgreSQL</code> <code>Azure SQL</code><br /><strong>캐시·검색</strong> <code>Redis</code> <code>Meilisearch</code></p>
+      <p>모델·인덱스·집계 쿼리와 조회 캐시·검색 색인 적용</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-data-formats-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-data-formats-light.svg" /><img src="assets/labels/capability-data-formats-light.svg" alt="DATA FORMATS" width="410" height="77" /></picture></p>
+      <p><strong>정형</strong> <code>SQL Tables</code> <code>TSV</code><br /><strong>반정형</strong> <code>JSON</code></p>
+      <p>테이블 조회·집계, JSON 데이터 연동과 TSV 내보내기</p>
+    </td>
+    <td width="50%" valign="top">
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-analytics-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-analytics-light.svg" /><img src="assets/labels/capability-analytics-light.svg" alt="DW / LAKEHOUSE / BI" width="410" height="77" /></picture></p>
+      <p><code>Microsoft Fabric</code> <code>Lakehouse</code><br /><code>Fact Table</code> <code>Power BI</code></p>
+      <p>Lakehouse 적재·변환과 분석용 테이블·운영 대시보드 구성</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-infrastructure-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-infrastructure-light.svg" /><img src="assets/labels/capability-infrastructure-light.svg" alt="INFRASTRUCTURE" width="410" height="77" /></picture></p>
+      <p><code>Docker</code> <code>Compose</code><br /><code>Nginx</code> <code>Gunicorn</code> <code>HTTPS</code></p>
+      <p>앱·검색·캐시 컨테이너와 웹 서버·HTTPS 실행 환경 구성</p>
+    </td>
+    <td width="50%" valign="top">
+      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-workflows-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-workflows-light.svg" /><img src="assets/labels/capability-workflows-light.svg" alt="WORKFLOWS" width="410" height="77" /></picture></p>
+      <p><strong>ETL</strong> <code>Fabric Dataflow</code><br /><strong>개발·배포</strong> <code>Git</code> <code>GitHub Actions</code></p>
+      <p>데이터 처리·주기적 BI 갱신과 테스트·빌드·배포 자동화</p>
     </td>
   </tr>
 </table>
@@ -49,14 +73,3 @@
 [프로젝트 소개 ↗](https://github.com/wwiskey/ITC/blob/main/README.md) · [실행 시연 ↗](https://github.com/wwiskey/ITC#서비스-화면) · [소스 코드 ↗](https://github.com/wwiskey/ITC/tree/main/src)
 
 <sub>현재는 외부 리소스가 삭제되어 소스와 과거 시연을 보관하고 있습니다.</sub>
-
-## Capabilities
-
-| 경험 | 적용한 방식 |
-| :--- | :--- |
-| **데이터 파이프라인** | Azure SQL 데이터를 Fabric Dataflow로 Lakehouse에 적재·변환하고, Power BI 운영 분석 대시보드 구성 |
-| **API·DB** | Django·DRF로 검색·목록·상세 API 구현, PostgreSQL 복합·trigram 인덱스와 집계 쿼리 적용 |
-| **검색·캐시** | Meilisearch 색인으로 통합 검색을 제공하고, Redis로 조회·집계 결과 캐싱 |
-| **데이터 시각화** | React에서 검색·필터·차트·표를 연동하고, Chart.js·SVG 시각화와 결과 내보내기 구현 |
-| **서비스 인프라** | Docker·Compose로 앱·검색·캐시 실행 환경 구성, Nginx·Gunicorn으로 HTTPS·정적 파일·API 제공 |
-| **배포 자동화** | GitHub Actions로 의존성 점검·테스트·빌드를 연결하고, `main` 커밋 기준 배포·응답 확인 흐름 구성 |

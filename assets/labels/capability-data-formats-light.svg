@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="68" viewBox="0 0 360 68" role="img" aria-label="DATA FORMATS">
+<defs><linearGradient id="wash" x1="0" x2="1"><stop stop-color="#258f83" stop-opacity=".09"/><stop offset="1" stop-color="#258f83" stop-opacity=".025"/></linearGradient><clipPath id="clip"><rect width="360" height="68" rx="12"/></clipPath></defs>
+<rect x=".5" y=".5" width="359" height="67" rx="11.5" fill="#ffffff"/>
+<rect x=".5" y=".5" width="359" height="67" rx="11.5" fill="url(#wash)" stroke="#258f83" stroke-opacity=".10"/>
+<g clip-path="url(#clip)" stroke="#55b7a9" fill="none" stroke-opacity=".11"><path d="M275-10v88M299-10v88M323-10v88M347-10v88M262 16h110M262 40h110M262 64h110"/><path d="M270 67c25-8 35-53 90-50" stroke-width="1.2" stroke-opacity=".24"/></g>
+<g transform="translate(16 16)"><rect x=".5" y=".5" width="35" height="35" rx="10" fill="#258f83" fill-opacity=".11" stroke="#258f83" stroke-opacity=".18"/><path d="M10.5 1h15a9.5 9.5 0 0 1 9.5 9.5" fill="none" stroke="#55b7a9" stroke-opacity=".22"/><g transform="translate(6 6)" fill="none" stroke="#176b64" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/><path d="m3.5 10-2 2 2 2m17-4 2 2-2 2"/></g></g>
+<text x="68" y="39" fill="#316a63" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="12" letter-spacing="1.25">DATA FORMATS</text>
+<circle cx="337" cy="16" r="2" fill="#258f83" fill-opacity=".30"/>
+</svg>
