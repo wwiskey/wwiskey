@@ -4,12 +4,10 @@
 
 <div align="center">
 
-### 데이터의 구조부터, 사용자의 탐색 경험까지.
+### 데이터 처리부터 서비스 구현과 배포까지.
 
-데이터를 분석 가능한 구조로 정리하고,<br />
-검색·API·시각화를 연결해 필요한 정보를 찾을 수 있는 서비스를 만듭니다.
-
-[Selected Work](#selected-work) · [Capabilities](#capabilities) · [ITC 시연](https://github.com/wwiskey/ITC#서비스-화면)
+데이터를 가공해 API와 검색·분석 화면으로 제공하고,<br />
+컨테이너 실행 환경과 자동 배포 흐름을 함께 구성합니다.
 
 </div>
 
@@ -38,45 +36,27 @@
 
 <sub>IN PROGRESS · PRIVATE PROJECT</sub>
 
-**검색과 필터, 차트가 하나로 연결된 데이터 탐색 서비스.**
-
-Django·PostgreSQL 기반 API와 React 화면을 연결하고, 여러 유형의 데이터를 조건에 따라 탐색하고 비교할 수 있도록 개발하고 있습니다.
-
-| 데이터 접근 | 탐색 경험 | 개발·배포 |
-| :--- | :--- | :--- |
-| 모델·인덱스와 집계 쿼리 | 통합 검색·자동완성·필터 | Docker · Compose · Nginx |
-| Redis 캐시 · Meilisearch | 차트·표 연동, 결과 내보내기 | GitHub Actions 검사·테스트·배포 |
+여러 유형의 데이터를 검색·필터링하고, 차트와 표로 비교할 수 있는 데이터 탐색·분석 포털을 개발하고 있습니다.
 
 <br />
 
 ### <img src="assets/icons/itc.svg" width="28" height="28" alt="" /> [ITC · Investment Training Crypto](https://github.com/wwiskey/ITC)
 
-<sub>2025.08–09 · TEAM PROJECT · ARCHIVED</sub>
+<sub>2025.08–09 · TEAM PROJECT · PM / DATA ENGINEER · ARCHIVED</sub>
 
-**투자 학습 서비스의 경험 설계와 운영 데이터 분석.**
-
-6인 팀에서 <strong>PM & Data Engineer</strong>를 맡아 로드맵·시장 시나리오·학습 콘텐츠를 설계하고, 서비스 데이터를 운영 분석으로 연결했습니다.
-
-```text
-Azure SQL → Fabric Dataflow → Lakehouse → Fact Table → Power BI
-```
-
-- 고객 특성·선호 코인·주문 방식·거래량을 분석하는 대시보드
-- 1시간 단위 갱신 구성과 데이터 연결·테이블 매핑 문제 해결
-- 세 가지 시장 시나리오 설계, 로드맵·리스크·기능 진행 조율
+코인 투자 시뮬레이션으로 매매를 연습하고 경제를 공부하는 학습 서비스입니다.
 
 [프로젝트 소개 ↗](https://github.com/wwiskey/ITC/blob/main/README.md) · [실행 시연 ↗](https://github.com/wwiskey/ITC#서비스-화면) · [소스 코드 ↗](https://github.com/wwiskey/ITC/tree/main/src)
 
-<sub>웹·거래 엔진·인증·AI·인프라는 팀 공동 산출물입니다. 현재는 기존 외부 리소스가 삭제되어 소스와 과거 시연을 보관하고 있습니다.</sub>
+<sub>현재는 외부 리소스가 삭제되어 소스와 과거 시연을 보관하고 있습니다.</sub>
 
 ## Capabilities
 
-프로젝트에서 다뤄온 기술을 작업 단위로 정리했습니다.
-
-| 영역 | 기술과 경험 |
+| 경험 | 적용한 방식 |
 | :--- | :--- |
-| **Data & APIs** | Python · SQL · Django · Django REST Framework · PostgreSQL |
-| **Search & Retrieval** | Redis · Meilisearch · 인덱스 · 캐시 · 필터·집계 |
-| **Interfaces** | JavaScript · React · Vite · Chart.js · SVG · 데이터 내보내기 |
-| **Engineering & BI** | Azure SQL · Microsoft Fabric · Dataflow · Lakehouse · Power BI |
-| **Delivery** | Docker · Compose · Nginx · GitHub Actions · PR 기반 작업·검증 |
+| **데이터 파이프라인** | Azure SQL 데이터를 Fabric Dataflow로 Lakehouse에 적재·변환하고, Power BI 운영 분석 대시보드 구성 |
+| **API·DB** | Django·DRF로 검색·목록·상세 API 구현, PostgreSQL 복합·trigram 인덱스와 집계 쿼리 적용 |
+| **검색·캐시** | Meilisearch 색인으로 통합 검색을 제공하고, Redis로 조회·집계 결과 캐싱 |
+| **데이터 시각화** | React에서 검색·필터·차트·표를 연동하고, Chart.js·SVG 시각화와 결과 내보내기 구현 |
+| **서비스 인프라** | Docker·Compose로 앱·검색·캐시 실행 환경 구성, Nginx·Gunicorn으로 HTTPS·정적 파일·API 제공 |
+| **배포 자동화** | GitHub Actions로 의존성 점검·테스트·빌드를 연결하고, `main` 커밋 기준 배포·응답 확인 흐름 구성 |
