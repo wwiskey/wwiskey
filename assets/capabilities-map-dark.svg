@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1070" viewBox="0 0 1200 1070" role="img" aria-labelledby="map-title map-desc">
+<title id="map-title">Capabilities — 서비스 구성으로 보는 기술 경험</title>
+<desc id="map-desc">여러 프로젝트에서 다룬 기술을 역할별로 배치한 지도. 사용자에서 React·Vite·JavaScript 프런트엔드, Python·Django·DRF API로 연결됩니다. API는 Redis·Meilisearch 검색과 PostgreSQL·MySQL·Azure SQL 데이터베이스를 조회합니다. 분석 흐름은 Fabric Dataflow·Lakehouse·Fact Table·Power BI로 이어집니다. Docker·Compose·Nginx·Gunicorn·HTTPS 실행 환경과 Git·GitHub Actions 배포 자동화가 이를 받칩니다. 클라우드 경험은 AWS S3·RDS·IAM·비용 관리 및 Azure SQL·Microsoft Fabric입니다.</desc>
+<defs>
+<marker id="request-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.1 7 4 1 6.9" fill="none" stroke="#92afc1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="data-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.1 7 4 1 6.9" fill="none" stroke="#83b7a2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="deploy-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.1 7 4 1 6.9" fill="none" stroke="#a6a8bf" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs><rect width="1200" height="1070" fill="#0d1117"/><g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif">
+<text x="60" y="39" fill="#9aaeb7" font-size="14" font-weight="650" letter-spacing="1.2">CAPABILITY MAP</text>
+<path d="M746 34h34" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="790" y="39" fill="#9aaeb7" font-size="14" font-weight="400">요청·조회</text>
+<path d="M936 34h34" fill="none" stroke="#83b7a2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<text x="980" y="39" fill="#9aaeb7" font-size="14" font-weight="400">분석·ETL</text>
+<rect x="36" y="106" width="1128" height="492" rx="18" fill="#111920" stroke="#30404a"/>
+<path d="M756 320v30H210v40" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#request-arrow)"/>
+<path d="M600 350v40" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#request-arrow)"/>
+<circle cx="600" cy="350" r="3.5" fill="#92afc1"/>
+<path d="M750 480h90" fill="none" stroke="#83b7a2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" marker-end="url(#data-arrow)"/>
+<text x="763" y="461" fill="#9aaeb7" font-size="13" font-weight="400">적재·갱신</text>
+<rect x="60" y="200" width="180" height="92" rx="12" fill="#0d1117" stroke="#30404a"/>
+<g transform="translate(82 226)" fill="none" stroke="#9aaeb7" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="7" r="5"/><path d="M2 29v-3a10 10 0 0 1 20 0v3"/></g>
+<text x="126" y="253" fill="#e1e8e9" font-size="22" font-weight="550">사용자</text>
+<rect x="300" y="140" width="600" height="180" rx="12" fill="#19232d" stroke="#30404a"/>
+<rect x="320" y="158" width="34" height="34" rx="9" fill="#2b3b48" stroke="#2b3b48"/>
+<g transform="translate(325 163)" fill="none" stroke="#b3c6d5" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 8.5h18M6.5 6.3h.01M9 6.3h.01M7.5 12l-2 2 2 2M16.5 12l2 2-2 2M13.5 11.5l-3 5"/></g>
+<text x="367" y="180" fill="#b3c6d5" font-size="14" font-weight="650" letter-spacing=".8">WEB &amp; API</text>
+<rect x="324" y="198" width="240" height="98" rx="9" fill="#0d1117" stroke="#30404a"/>
+<text x="342" y="224" fill="#e1e8e9" font-size="17" font-weight="600">Frontend</text>
+<text x="342" y="252" fill="#e1e8e9" font-size="19" font-weight="400">React · Vite</text>
+<text x="342" y="277" fill="#9aaeb7" font-size="18" font-weight="400">JavaScript</text>
+<rect x="636" y="198" width="240" height="98" rx="9" fill="#0d1117" stroke="#30404a"/>
+<text x="654" y="224" fill="#e1e8e9" font-size="17" font-weight="600">Backend / API</text>
+<text x="654" y="252" fill="#e1e8e9" font-size="19" font-weight="400">Django · DRF</text>
+<text x="654" y="277" fill="#9aaeb7" font-size="18" font-weight="400">Python</text>
+<path d="M240 246h84" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#request-arrow)"/>
+<path d="M564 246h72" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#request-arrow)"/>
+<text x="579" y="231" fill="#9aaeb7" font-size="12" font-weight="400">REST</text>
+<rect x="60" y="390" width="300" height="176" rx="12" fill="#142223" stroke="#30404a"/>
+<rect x="80" y="408" width="34" height="34" rx="9" fill="#243a37" stroke="#243a37"/>
+<g transform="translate(85 413)" fill="none" stroke="#a3c9bc" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.8"/><path d="m15.5 15.5 5 5M7.5 9h6M7.5 12h4"/></g>
+<text x="127" y="430" fill="#a3c9bc" font-size="14" font-weight="650" letter-spacing=".8">SEARCH &amp; CACHE</text>
+<text x="84" y="478" fill="#e1e8e9" font-size="20" font-weight="400">Redis · Meilisearch</text>
+<text x="84" y="514" fill="#9aaeb7" font-size="19" font-weight="400">Trigram GIN</text>
+<rect x="450" y="390" width="300" height="176" rx="12" fill="#19232d" stroke="#30404a"/>
+<rect x="470" y="408" width="34" height="34" rx="9" fill="#2b3b48" stroke="#2b3b48"/>
+<g transform="translate(475 413)" fill="none" stroke="#b3c6d5" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7.5" ry="3"/><path d="M4.5 5.5v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6M4.5 11.5v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6M8 10.3h.01M8 16.3h.01"/></g>
+<text x="517" y="430" fill="#b3c6d5" font-size="14" font-weight="650" letter-spacing=".8">DATABASES</text>
+<text x="474" y="478" fill="#e1e8e9" font-size="20" font-weight="400">PostgreSQL · MySQL</text>
+<text x="474" y="514" fill="#9aaeb7" font-size="19" font-weight="400">Azure SQL</text>
+<rect x="840" y="390" width="300" height="176" rx="12" fill="#142223" stroke="#30404a"/>
+<rect x="860" y="408" width="34" height="34" rx="9" fill="#243a37" stroke="#243a37"/>
+<g transform="translate(865 413)" fill="none" stroke="#a3c9bc" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 4.5-9 4.5L3 7.5zM3 12l9 4.5 9-4.5M3 16.5l9 4.5 9-4.5"/></g>
+<text x="907" y="430" fill="#a3c9bc" font-size="14" font-weight="650" letter-spacing=".8">DW / LAKEHOUSE / BI</text>
+<text x="864" y="470" fill="#e1e8e9" font-size="19" font-weight="400">Microsoft Fabric</text>
+<text x="864" y="504" fill="#e1e8e9" font-size="18" font-weight="400">Dataflow → Lakehouse</text>
+<text x="864" y="536" fill="#9aaeb7" font-size="18" font-weight="400">Fact Table → Power BI</text>
+<path d="M385 640v-42" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="401" y="624" fill="#9aaeb7" font-size="14" font-weight="400">실행 환경</text>
+<rect x="60" y="640" width="650" height="164" rx="12" fill="#19232d" stroke="#30404a"/>
+<rect x="80" y="658" width="34" height="34" rx="9" fill="#2b3b48" stroke="#2b3b48"/>
+<g transform="translate(85 663)" fill="none" stroke="#b3c6d5" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M6.5 6.5h.01M6.5 17.5h.01M15 6.5h3M15 17.5h3M8 10v4M16 10v4"/></g>
+<text x="127" y="680" fill="#b3c6d5" font-size="14" font-weight="650" letter-spacing=".8">INFRASTRUCTURE</text>
+<text x="84" y="724" fill="#e1e8e9" font-size="20" font-weight="400">Docker · Compose · Nginx · Gunicorn · HTTPS</text>
+<text x="84" y="761" fill="#9aaeb7" font-size="19" font-weight="400">컨테이너·웹 서버·HTTPS 환경 직접 구축</text>
+<rect x="800" y="640" width="340" height="164" rx="12" fill="#142223" stroke="#30404a"/>
+<rect x="820" y="658" width="34" height="34" rx="9" fill="#243a37" stroke="#243a37"/>
+<g transform="translate(825 663)" fill="none" stroke="#a3c9bc" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="6" height="6" rx="1.5"/><rect x="16" y="2" width="6" height="6" rx="1.5"/><rect x="16" y="16" width="6" height="6" rx="1.5"/><path d="M8 12h3a2 2 0 0 0 2-2V7a2 2 0 0 1 2-2h1M8 12h3a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h1"/></g>
+<text x="867" y="680" fill="#a3c9bc" font-size="14" font-weight="650" letter-spacing=".8">WORKFLOWS</text>
+<text x="824" y="724" fill="#e1e8e9" font-size="20" font-weight="400">Git · GitHub Actions</text>
+<text x="824" y="761" fill="#9aaeb7" font-size="18" font-weight="400">검사 · 테스트 · 빌드 · 배포</text>
+<path d="M800 722h-90" fill="none" stroke="#a6a8bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" marker-end="url(#deploy-arrow)"/>
+<text x="733" y="705" fill="#9aaeb7" font-size="14" font-weight="400">CI/CD</text>
+<path d="M385 864v-60" fill="none" stroke="#92afc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="401" y="841" fill="#9aaeb7" font-size="14" font-weight="400">클라우드 기반</text>
+<rect x="60" y="864" width="1080" height="164" rx="12" fill="#142223" stroke="#30404a"/>
+<rect x="80" y="882" width="34" height="34" rx="9" fill="#243a37" stroke="#243a37"/>
+<g transform="translate(85 887)" fill="none" stroke="#a3c9bc" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18H6a4 4 0 0 1-.5-8A6.5 6.5 0 0 1 18 8.6a4.8 4.8 0 0 1 0 9.4h-1M9 18v-4m6 4v-4M12 11v9"/></g>
+<text x="127" y="904" fill="#a3c9bc" font-size="14" font-weight="650" letter-spacing=".8">CLOUD PLATFORMS</text>
+<text x="84" y="952" fill="#e1e8e9" font-size="21" font-weight="650">AWS</text>
+<text x="151" y="952" fill="#e1e8e9" font-size="21" font-weight="400">S3 · RDS</text>
+<text x="84" y="991" fill="#9aaeb7" font-size="20" font-weight="400">IAM &amp; Access Control · Cost Monitoring</text>
+<path d="M675 928v76" stroke="#30404a"/>
+<text x="710" y="952" fill="#e1e8e9" font-size="21" font-weight="650">Azure</text>
+<text x="710" y="991" fill="#9aaeb7" font-size="20" font-weight="400">Azure SQL · Microsoft Fabric</text>
+<text x="60" y="1056" fill="#9aaeb7" font-size="14" font-weight="400">여러 프로젝트에서 활용한 기술 · 서비스 구성 역할 기준</text>
+</g></svg>

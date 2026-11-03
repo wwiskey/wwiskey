@@ -15,56 +15,20 @@ AWS·Azure 환경을 구성하고,<br />
 
 ## Capabilities
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-cloud-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-cloud-light.svg" /><img src="assets/labels/capability-cloud-light.svg" alt="CLOUD PLATFORMS" width="410" height="77" /></picture></p>
-      <p><strong>AWS</strong><br /><code>S3</code> <code>RDS</code><br /><code>IAM &amp; Access Control</code> <code>Cost Monitoring</code></p>
-      <p><strong>Azure</strong><br /><code>Azure SQL</code> <code>Microsoft Fabric</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-database-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-database-light.svg" /><img src="assets/labels/capability-database-light.svg" alt="DATABASES" width="410" height="77" /></picture></p>
-      <p><code>PostgreSQL</code> <code>MySQL</code><br /><code>Azure SQL</code></p>
-      <p>관계형 데이터 모델·SQL 조회·집계·인덱스 구성</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-web-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-web-light.svg" /><img src="assets/labels/capability-web-light.svg" alt="WEB &amp; API" width="410" height="77" /></picture></p>
-      <p><code>Python</code> <code>Django</code> <code>DRF</code><br /><code>JavaScript</code> <code>React</code> <code>Vite</code></p>
-      <p>REST API와 검색·필터·통계·시각화를 연결한 웹 개발</p>
-    </td>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-search-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-search-light.svg" /><img src="assets/labels/capability-search-light.svg" alt="SEARCH &amp; CACHE" width="410" height="77" /></picture></p>
-      <p><strong>캐시</strong> <code>Redis</code><br /><strong>검색</strong> <code>Meilisearch</code> <code>Trigram GIN</code></p>
-      <p>필터별 캐시·검색 색인과 검색 장애 시 DB 대체 경로 구성</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-data-formats-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-data-formats-light.svg" /><img src="assets/labels/capability-data-formats-light.svg" alt="DATA FORMATS" width="410" height="77" /></picture></p>
-      <p><strong>정형</strong> <code>SQL Tables</code> <code>TSV</code><br /><strong>반정형</strong> <code>JSON</code></p>
-      <p>테이블 조회·집계, JSON 연동과 TSV·ZIP 내보내기</p>
-    </td>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-analytics-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-analytics-light.svg" /><img src="assets/labels/capability-analytics-light.svg" alt="DW / LAKEHOUSE / BI" width="410" height="77" /></picture></p>
-      <p><code>Microsoft Fabric</code> <code>Lakehouse</code><br /><code>Fact Table</code> <code>Power BI</code></p>
-      <p>Lakehouse 적재·변환과 분석용 테이블·운영 대시보드 구성</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-infrastructure-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-infrastructure-light.svg" /><img src="assets/labels/capability-infrastructure-light.svg" alt="INFRASTRUCTURE" width="410" height="77" /></picture></p>
-      <p><code>Docker</code> <code>Compose</code><br /><code>Nginx</code> <code>Gunicorn</code> <code>HTTPS</code></p>
-      <p>앱·검색·캐시 컨테이너와 웹 서버·HTTPS 환경 직접 설계·구축</p>
-    </td>
-    <td width="50%" valign="top">
-      <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-workflows-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-workflows-light.svg" /><img src="assets/labels/capability-workflows-light.svg" alt="WORKFLOWS" width="410" height="77" /></picture></p>
-      <p><strong>ETL</strong> <code>Fabric Dataflow</code><br /><strong>개발·배포</strong> <code>Git</code> <code>GitHub Actions</code></p>
-      <p>데이터 처리·주기적 BI 갱신과 검사·테스트·빌드·배포 자동화</p>
-    </td>
-  </tr>
-</table>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capabilities-map-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/capabilities-map-light.svg" /><img src="assets/capabilities-map-light.svg" width="100%" alt="프로젝트 기술 구성도: 사용자 → React·Vite 웹 → Django·DRF API → 검색·캐시 및 데이터베이스. Fabric 분석 흐름과 클라우드·인프라·배포 자동화 경험." /></picture></p>
+
+<details>
+<summary>기술 목록</summary>
+
+- **Web & API**: JavaScript · React · Vite · Python · Django · DRF
+- **Search & Cache**: Redis · Meilisearch · Trigram GIN
+- **Databases**: PostgreSQL · MySQL · Azure SQL
+- **DW / Lakehouse / BI**: Microsoft Fabric · Dataflow · Lakehouse · Fact Table · Power BI
+- **Infrastructure**: Docker · Compose · Nginx · Gunicorn · HTTPS
+- **Workflows**: Git · GitHub Actions · Fabric Dataflow
+- **Cloud**: AWS S3 · RDS · IAM & Access Control · Cost Monitoring / Azure SQL · Microsoft Fabric
+
+</details>
 
 ## Selected Work
 
