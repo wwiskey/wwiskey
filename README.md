@@ -23,7 +23,6 @@
 
 **서비스 인프라 전반을 직접 구축하고, 배포를 자동화했습니다.**
 
-<br />
 
 ### <img src="assets/icons/itc.svg" width="28" height="28" alt="" /> [ITC · Investment Training Crypto](https://github.com/wwiskey/ITC)
 

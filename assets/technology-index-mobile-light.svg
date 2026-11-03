@@ -1,89 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1510" viewBox="0 0 520 1510" role="img" aria-labelledby="title desc"><title id="title">기술 목록 — 모바일</title><desc id="desc">분류별 사용 기술을 카드와 태그로 표시합니다.</desc><defs>
-<marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#797064" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-<marker id="data" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#aa6141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-<marker id="deploy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#98816a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-</defs><rect width="520" height="1510" fill="#f2eee5"/><g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif">
-<rect x="24" y="24" width="472" height="326" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 48v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="64" font-size="24" font-weight="550" fill="#272522">Cloud Platforms</text>
-<text x="48" y="105" font-size="18" font-weight="650" fill="#a55535">AWS</text>
-<rect x="48" y="120" width="48.4" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="143" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">S3</text>
-<rect x="105.4" y="120" width="60.6" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="117.4" y="143" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">RDS</text>
-<rect x="48" y="162" width="268.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="185" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">IAM &amp; Access Control</text>
-<rect x="48" y="204" width="207.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="227" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Cost Monitoring</text>
-<text x="48" y="272" font-size="18" font-weight="650" fill="#a55535">Azure</text>
-<rect x="48" y="286" width="133.8" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="309" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Azure SQL</text>
-<rect x="190.8" y="286" width="219.2" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="202.8" y="309" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Microsoft Fabric</text>
-<rect x="24" y="370" width="472" height="166" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 393v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="409" font-size="24" font-weight="550" fill="#272522">Web &amp; API</text>
-<rect x="48" y="435" width="146.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="458" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">JavaScript</text>
-<rect x="203.0" y="435" width="85.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="215.0" y="458" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">React</text>
-<rect x="297.0" y="435" width="72.8" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="309.0" y="458" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Vite</text>
-<rect x="48" y="477" width="97.2" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="500" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Python</text>
-<rect x="154.2" y="477" width="97.2" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="166.2" y="500" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Django</text>
-<rect x="260.4" y="477" width="60.6" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="272.4" y="500" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">DRF</text>
-<rect x="24" y="556" width="472" height="166" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 579v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="595" font-size="24" font-weight="550" fill="#272522">Databases</text>
-<rect x="48" y="621" width="146.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="644" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">PostgreSQL</text>
-<rect x="203.0" y="621" width="85.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="215.0" y="644" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">MySQL</text>
-<rect x="297.0" y="621" width="133.8" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="309.0" y="644" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Azure SQL</text>
-<rect x="24" y="742" width="472" height="166" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 765v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="781" font-size="24" font-weight="550" fill="#272522">Search &amp; Cache</text>
-<rect x="48" y="807" width="85.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="830" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Redis</text>
-<rect x="142.0" y="807" width="158.2" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="154.0" y="830" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Meilisearch</text>
-<rect x="24" y="928" width="472" height="166" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 951v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="967" font-size="24" font-weight="550" fill="#272522">DW / Lakehouse / BI</text>
-<rect x="48" y="993" width="219.2" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="1016" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Microsoft Fabric</text>
-<rect x="276.2" y="993" width="121.6" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="288.2" y="1016" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Dataflow</text>
-<rect x="48" y="1035" width="133.8" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="1058" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Lakehouse</text>
-<rect x="190.8" y="1035" width="146.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="202.8" y="1058" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Fact Table</text>
-<rect x="345.8" y="1035" width="121.6" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="357.8" y="1058" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Power BI</text>
-<rect x="24" y="1114" width="472" height="166" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 1137v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="1153" font-size="24" font-weight="550" fill="#272522">Infrastructure</text>
-<rect x="48" y="1179" width="97.2" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="1202" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Docker</text>
-<rect x="154.2" y="1179" width="109.39999999999999" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="166.2" y="1202" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Compose</text>
-<rect x="272.59999999999997" y="1179" width="85.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="284.59999999999997" y="1202" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Nginx</text>
-<rect x="48" y="1221" width="121.6" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="1244" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Gunicorn</text>
-<rect x="178.6" y="1221" width="85.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="190.6" y="1244" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">HTTPS</text>
-<rect x="24" y="1300" width="472" height="166" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1"/>
-<path d="M48 1323v18" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="62" y="1339" font-size="24" font-weight="550" fill="#272522">Workflows</text>
-<rect x="48" y="1365" width="60.6" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="1388" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Git</text>
-<rect x="117.6" y="1365" width="194.79999999999998" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="129.6" y="1388" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">GitHub Actions</text>
-<rect x="48" y="1407" width="207.0" height="33" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1"/>
-<text x="60" y="1430" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Fabric Dataflow</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1298.6" viewBox="0 0 520 1298.6" role="img" aria-labelledby="title desc"><title id="title">기술 목록 — 모바일</title><desc id="desc">분류별 사용 기술을 카드와 태그로 표시합니다.</desc><defs>
+<marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#797064" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></marker>
+<marker id="data" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#aa6141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></marker>
+<marker id="deploy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#98816a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></marker>
+</defs><rect width="520" height="1298.6" fill="#f2eee5" /><g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif">
+<rect x="12" y="13.76" width="496" height="287.24" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 41.28 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="55.04" font-size="24" font-weight="550" fill="#272522">Cloud Platforms</text>
+<text x="32" y="90.3" font-size="18" font-weight="650" fill="#a55535">AWS</text>
+<rect x="32" y="103.2" width="48.4" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="122.98" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">S3</text>
+<rect x="89.4" y="103.2" width="60.6" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="101.4" y="122.98" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">RDS</text>
+<rect x="32" y="139.32" width="268.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="159.1" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">IAM &amp; Access Control</text>
+<rect x="32" y="175.44" width="207.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="195.22" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Cost Monitoring</text>
+<text x="32" y="233.92" font-size="18" font-weight="650" fill="#a55535">Azure</text>
+<rect x="32" y="245.96" width="133.8" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="265.74" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Azure SQL</text>
+<rect x="174.8" y="245.96" width="219.2" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="186.8" y="265.74" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Microsoft Fabric</text>
+<rect x="12" y="318.2" width="496" height="142.76" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 337.98 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="351.74" font-size="24" font-weight="550" fill="#272522">Web &amp; API</text>
+<rect x="32" y="374.1" width="146.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="393.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">JavaScript</text>
+<rect x="187.0" y="374.1" width="85.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="199.0" y="393.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">React</text>
+<rect x="281.0" y="374.1" width="72.8" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="293.0" y="393.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Vite</text>
+<rect x="362.8" y="374.1" width="97.2" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="374.8" y="393.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Python</text>
+<rect x="32" y="410.22" width="97.2" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="430" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Django</text>
+<rect x="138.2" y="410.22" width="60.6" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="150.2" y="430" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">DRF</text>
+<rect x="12" y="478.16" width="496" height="142.76" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 497.94 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="511.7" font-size="24" font-weight="550" fill="#272522">Databases</text>
+<rect x="32" y="534.06" width="146.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="553.84" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">PostgreSQL</text>
+<rect x="187.0" y="534.06" width="85.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="199.0" y="553.84" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">MySQL</text>
+<rect x="281.0" y="534.06" width="133.8" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="293.0" y="553.84" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Azure SQL</text>
+<rect x="12" y="638.12" width="496" height="142.76" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 657.9 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="671.66" font-size="24" font-weight="550" fill="#272522">Search &amp; Cache</text>
+<rect x="32" y="694.02" width="85.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="713.8" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Redis</text>
+<rect x="126.0" y="694.02" width="158.2" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="138.0" y="713.8" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Meilisearch</text>
+<rect x="12" y="798.08" width="496" height="142.76" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 817.86 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="831.62" font-size="24" font-weight="550" fill="#272522">DW / Lakehouse / BI</text>
+<rect x="32" y="853.98" width="219.2" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="873.76" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Microsoft Fabric</text>
+<rect x="260.2" y="853.98" width="121.6" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="272.2" y="873.76" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Dataflow</text>
+<rect x="32" y="890.1" width="133.8" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="909.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Lakehouse</text>
+<rect x="174.8" y="890.1" width="146.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="186.8" y="909.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Fact Table</text>
+<rect x="329.8" y="890.1" width="121.6" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="341.8" y="909.88" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Power BI</text>
+<rect x="12" y="958.04" width="496" height="142.76" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 977.82 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="991.58" font-size="24" font-weight="550" fill="#272522">Infrastructure</text>
+<rect x="32" y="1013.94" width="97.2" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="1033.72" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Docker</text>
+<rect x="138.2" y="1013.94" width="109.39999999999999" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="150.2" y="1033.72" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Compose</text>
+<rect x="256.59999999999997" y="1013.94" width="85.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="268.59999999999997" y="1033.72" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Nginx</text>
+<rect x="350.59999999999997" y="1013.94" width="121.6" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="362.59999999999997" y="1033.72" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Gunicorn</text>
+<rect x="32" y="1050.06" width="85.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="1069.84" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">HTTPS</text>
+<rect x="12" y="1118" width="496" height="142.76" rx="2" fill="#fcfaf5" stroke="#d1c5b6" stroke-width="1" />
+<path d="M 32 1137.78 v 15.48" fill="none" stroke="#aa6141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+<text x="46" y="1151.54" font-size="24" font-weight="550" fill="#272522">Workflows</text>
+<rect x="32" y="1173.9" width="60.6" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="1193.68" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Git</text>
+<rect x="101.6" y="1173.9" width="194.79999999999998" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="113.6" y="1193.68" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">GitHub Actions</text>
+<rect x="32" y="1210.02" width="207.0" height="28.38" rx="4" fill="#f2eee5" stroke="#d1c5b6" stroke-width="1" />
+<text x="44" y="1229.8" font-size="20" font-weight="450" fill="#272522" font-family="ui-monospace,Consolas,monospace">Fabric Dataflow</text>
 </g></svg>
