@@ -21,6 +21,7 @@ AWS·Azure 환경을 구성하고,<br />
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-cloud-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-cloud-light.svg" /><img src="assets/labels/capability-cloud-light.svg" alt="CLOUD PLATFORMS" width="410" height="77" /></picture></p>
       <p><code>AWS</code> <code>Azure</code><br /><code>S3</code> <code>RDS</code> <code>Azure SQL</code> <code>Fabric</code></p>
       <p>S3 저장 파일 다운로드·RDS 연동과 Azure 분석 환경 구성</p>
+      <p><strong>AWS</strong><br /><code>IAM &amp; Access Control</code> <code>Cost Monitoring</code></p>
     </td>
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-database-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-database-light.svg" /><img src="assets/labels/capability-database-light.svg" alt="DATABASES" width="410" height="77" /></picture></p>
@@ -56,7 +57,7 @@ AWS·Azure 환경을 구성하고,<br />
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-infrastructure-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-infrastructure-light.svg" /><img src="assets/labels/capability-infrastructure-light.svg" alt="INFRASTRUCTURE" width="410" height="77" /></picture></p>
       <p><code>Docker</code> <code>Compose</code><br /><code>Nginx</code> <code>Gunicorn</code> <code>HTTPS</code></p>
-      <p>앱·검색·캐시 컨테이너와 웹 서버 실행 환경 구성</p>
+      <p>앱·검색·캐시 컨테이너와 웹 서버·HTTPS 환경 직접 설계·구축</p>
     </td>
     <td width="50%" valign="top">
       <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/labels/capability-workflows-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/labels/capability-workflows-light.svg" /><img src="assets/labels/capability-workflows-light.svg" alt="WORKFLOWS" width="410" height="77" /></picture></p>
@@ -72,11 +73,14 @@ AWS·Azure 환경을 구성하고,<br />
 
 <sub>IN PROGRESS · PRIVATE PROJECT</sub>
 
+**서비스 인프라 전반의 설계·구축과 배포 자동화를 직접 담당했습니다.**
+
 React와 Django로 통합 검색·필터·통계·시각화를 연결한 데이터 탐색·분석 플랫폼을 개발하고 있습니다. 조건을 좁혀 차트와 표로 비교하고, 필요한 결과와 파일을 내보낼 수 있도록 구성했습니다.
 
 - **조회·검색** — PostgreSQL 복합·trigram 인덱스, Redis 필터별 캐시, Meilisearch 검색과 DB 대체 경로
 - **화면·데이터 처리** — URL 기반 필터 상태, 요청 공유·취소, Web Worker 필터·정렬과 차트·표 연동
-- **파일·검증** — S3 파일 ZIP 다운로드와 조회 결과 SVG·PNG·TSV 내보내기, 테스트·린트·빌드·배포 자동화
+- **파일·내보내기** — S3 파일 ZIP 다운로드와 조회 결과 SVG·PNG·TSV 내보내기
+- **인프라·배포** — Docker·Compose 실행 환경, Nginx·Gunicorn 웹 서버, S3·RDS 연동과 GitHub Actions 검사·빌드·배포 파이프라인 직접 구축
 
 <br />
 
