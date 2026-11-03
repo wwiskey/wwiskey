@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="278" viewBox="0 0 520 278" role="img" aria-labelledby="title desc"><title id="title">wwiskey — Cloud &amp; Data Engineering</title><desc id="desc">AWS·Azure 인프라와 웹·데이터 서비스</desc><defs>
-<marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#91b0c1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-<marker id="data" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#8cbe9d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-<marker id="deploy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#c3aa77" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-</defs><rect width="520" height="278" fill="#101a21"/><g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif">
-<rect x="0" y="0" width="9" height="278" rx="0" fill="#83b8a6" stroke="#83b8a6" stroke-width="1"/>
-<text x="32" y="47" font-size="25" font-weight="650" fill="#e5ece8">wwiskey</text>
-<text x="30" y="123" font-size="48" font-weight="600" fill="#e5ece8" letter-spacing="-1.8">Cloud &amp; Data</text>
-<text x="30" y="178" font-size="48" font-weight="600" fill="#e5ece8" letter-spacing="-1.8">Engineering</text>
-<path d="M32 210h456" fill="none" stroke="#8cbe9d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="32" y="248" font-size="19" font-weight="550" fill="#e5ece8">AWS / Azure</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="292" viewBox="0 0 520 292" role="img" aria-labelledby="title desc"><title id="title">wwiskey — Cloud &amp; Data Engineering</title><desc id="desc">AWS·Azure 인프라와 웹·데이터 서비스</desc><defs>
+<marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#b8b0a3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="data" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#d19b7a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="deploy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.2 7 4 1 6.8" fill="none" stroke="#a59783" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs><rect width="520" height="292" fill="#1b1a18"/><g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif">
+<text x="32" y="43" font-size="24" font-weight="650" fill="#eee7dc" font-family="ui-monospace,Consolas,monospace">wwiskey</text>
+<path d="M32 66h456" fill="none" stroke="#b8b0a3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="141" font-size="48" font-weight="550" fill="#eee7dc" letter-spacing="-1.5">Cloud &amp; Data</text>
+<text x="488" y="221" font-size="63" font-weight="400" fill="#d99a75" letter-spacing="-1.4" text-anchor="end" font-family="Georgia,Times New Roman,serif" font-style="italic">Engineering</text>
+<text x="32" y="267" font-size="18" font-weight="500" fill="#b8ad9d" font-family="ui-monospace,Consolas,monospace">AWS / Azure</text>
 </g></svg>

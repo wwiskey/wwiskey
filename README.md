@@ -7,15 +7,9 @@
 <p><picture><source media="(prefers-color-scheme: dark) and (max-width: 650px)" srcset="assets/service-architecture-mobile-dark.svg" /><source media="(prefers-color-scheme: light) and (max-width: 650px)" srcset="assets/service-architecture-mobile-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/service-architecture-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/service-architecture-light.svg" /><img src="assets/service-architecture-light.svg" width="100%" alt="프로젝트별 기술 역할 구성도. 브라우저 → HTTPS/Nginx → Gunicorn/Django API. 클라우드 안의 Docker 실행 영역과 관리형 DB·S3·Azure 분석 영역을 구분하고, GitHub Actions 배포 흐름을 별도로 표시합니다." /></picture></p>
 
 <details>
-<summary>기술 목록</summary>
+<summary><strong>기술 목록</strong></summary>
 
-- **Web & API**: JavaScript · React · Vite · Python · Django · DRF
-- **Search & Cache**: Redis · Meilisearch · Trigram GIN
-- **Databases**: PostgreSQL · MySQL · Azure SQL
-- **DW / Lakehouse / BI**: Microsoft Fabric · Dataflow · Lakehouse · Fact Table · Power BI
-- **Infrastructure**: Docker · Compose · Nginx · Gunicorn · HTTPS
-- **Workflows**: Git · GitHub Actions · Fabric Dataflow
-- **Cloud**: AWS S3 · RDS · IAM & Access Control · Cost Monitoring / Azure SQL · Microsoft Fabric
+<p><picture><source media="(prefers-color-scheme: dark) and (max-width: 650px)" srcset="assets/technology-index-mobile-dark.svg" /><source media="(prefers-color-scheme: light) and (max-width: 650px)" srcset="assets/technology-index-mobile-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/technology-index-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/technology-index-light.svg" /><img src="assets/technology-index-light.svg" width="100%" alt="기술 목록: AWS S3, RDS, IAM &amp; Access Control, Cost Monitoring; Azure SQL, Microsoft Fabric; JavaScript, React, Vite, Python, Django, DRF; PostgreSQL, MySQL, Trigram GIN; Redis, Meilisearch; Dataflow, Lakehouse, Fact Table, Power BI; Docker, Compose, Nginx, Gunicorn, HTTPS; Git, GitHub Actions." /></picture></p>
 
 </details>
 
